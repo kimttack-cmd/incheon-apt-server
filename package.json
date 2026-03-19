@@ -1,0 +1,21 @@
+{
+  "name": "incheon-apt-server",
+  "version": "1.0.0",
+  "description": "인천 아파트 실거래가 수집 서버",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.0",
+    "node-cron": "^3.0.3",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
